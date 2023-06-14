@@ -96,6 +96,9 @@ h1, p{
 
 .s-b{
     background-color: green;
+    position: relative;
+    left: 50px;
+    top: 100px;
 }
 
 .s-c{
@@ -103,19 +106,36 @@ h1, p{
 }
 
 .s-d{
-    background-color: crimson;
+    background-color: darkmagenta;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 50px;
+    top: 100px;
+
 }
 
 .s-e{
     background-color: violet;
+    position: relative;
 }
 
 .s-f{
     background-color: lime;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 100px;
+    right: 100px;
 }
 
 .s-g{
     background-color: tomato;
+    position: fixed;
+    width: 150px;
+    height: 150px;
+    top:100px;
+    right: 100px;
 }
 
 .s-h{
@@ -124,8 +144,11 @@ h1, p{
 
 .s-i{
     background-color: lightcoral;
+    position: sticky;
+    bottom: 0px;
 }
 
 .s-l{
     background-color: brown;
+    
 }
